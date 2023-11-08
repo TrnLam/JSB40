@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container img {
+    width: 200px;
+}
+
+.container {
+    background-color: aquamarine;
+}
+
+.menu_item {
+    vertical-align: top;
+    display: inline-block;
+    
+}
+
+
+.item {
+    padding: 20px;
+    display: inline-block;
+}
+
+.item:hover{
+    cursor: pointer;
+    color: rgb(86, 23, 223);
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+}

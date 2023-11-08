@@ -1,0 +1,52 @@
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+.container {
+    width: 900px;
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 {
+    width: 900px;
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container3 {
+    width: 900px;
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    margin-right: 100px;
+}
+
+.box2 {
+    margin-right: 200px;
+}
+
+.h {
+    background-color: rgb(79, 55, 44);
+}
+
+.i{
+    background-color: brown;
+}
+
+.c{
+    background-color: chocolate;
+}

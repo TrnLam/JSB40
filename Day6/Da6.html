@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* transition:thuộc tính thay đổi, số giây thay đổi, kiểu thay đổi */
+
+        #myBtn {
+            width: 100px;
+            height: 100px;
+
+            background-color: aliceblue;
+            transition-property: background-color, width, height, ;
+            transition-duration: 1s, 1s, 1s;
+            transition-timing-function: ease;
+        }
+
+        #myBtn:hover {
+            background-color: chartreuse;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        #myBtn:hover~.show_box {
+            margin-left: 0px;
+        }
+
+        .show_box {
+            margin-left: -100px;
+            transition: margin 1s ease;
+            width: 90px;
+            background-color: aqua;
+        }
+
+
+
+
+
+
+
+
+
+
+        .click_container {
+            width: 200px;
+            background-color: antiquewhite;
+            height: 100px;
+        }
+
+        #myCheckBox:checked~.box {
+            background-color: aqua;
+        }
+
+        .box {
+            transition: background-color 1s ease;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button id="myBtn">Hover me</button>
+        <div class="show_box">I'm here !!!</div>
+        <h1></h1>
+    </div>
+
+    <div class="click_container">
+        <input type="checkbox" name="" id="myCheckBox" />
+        <div class="box">My Box</div>
+    </div>
+</body>
+
+</html>
